@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="The new Inside IELTS Interactive Virtual Examiner test preparation program." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/IE_logo-tab.png" />
+
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/PRODUCT.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/record.css" />
+  <!-- <link rel="stylesheet" href="css/queries.css" />  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <title>InsideIELTS - Home of the IELTS VE</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="main-nav">
+      <a href="index.html">
+        <img class="logo" alt="IE logo" src="img/INTERACTIVE-EDUCATION_Logo-HEADER.png" />
+      </a>
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="index.html">HOME</a></li>
+        <li><a class="main-nav-link" href="test.html">TEST</a></li>
+        <li>
+          <a class="main-nav-link" href="assessment.html">ASSESSMENT</a>
+        </li>
+        <li><a class="main-nav-link" href="materials.html">MATERIALS</a></li>
+      </ul>
+      <a class="nav-cta active" href="VE.html">VE</a>
+
+      <a href="javascript:void(0);" id="menu">
+        <i class="fas fa-bars" style="color: white; font-size: 24px"></i>
+      </a>
+    </nav>
+  </header>
+  <aside id="small-nav">
+    <a href="javascript:void(0);" id="close-small-nav">
+      <i class="fas fa-times" style="font-size: 24px; color: black"></i>
+    </a>
+    <ul style="margin-top: 24px">
+      <li>
+        <a href="index.html">HOME</a>
+      </li>
+      <li>
+        <a href="test.html">TEST</a>
+      </li>
+      <li>
+        <a href="assessment.html">ASSESSMENT</a>
+      </li>
+      <li>
+        <a href="materials.html">MATERIALS</a>
+      </li>
+      <li>
+        <a id="sm-nav-cta" href="VE.html">VE</a>
+      </li>
+    </ul>
+  </aside>
+
+<!--
+  <section class="strip">
+    <div class="title">INSIDE IELTS - Test Preparation Program</div>
+   </section> -->
+
+  <section class="strip">
+    <div class="title_bar">
+      <div class="flags flags_left">
+        <div class="PHIL"><a href="#" title="Filipino">
+          <img
+            class="TAG_button flag"
+            alt="PHILIPPINES"
+            src="img/PHIL.png"/></a> 
+          </div>
+        <div class="VIET"><a href="#" title="Vietnamese">
+          <img
+            class="VIET_button flag"
+            alt="VIETNAM"
+            src="img/VIET.png"/></a> 
+          </div>
+        
+      <div class="THAI"><a href="#" title="Thai">
+        <img
+          class="THAI_button flag"
+          alt="THAILAND"
+          src="img/THAI.png"/></a> 
+        </div>           
+          </div>
+      <div class="title">VE RATING & FEEDBACK INTERVIEW #1</div>
+      <div class=" flags flags_right">
+      <div class="MAL"><a href="#" title="Malaysian">
+        <img
+          class="MAL_button flag"
+          alt="MAL"
+          src="img/MAL.png"/></a> 
+        </div>
+        <div class="IND"><a href="IND_INT1.html" title="Indonesian">
+          <img
+            class="IND_button flag"
+            alt="IND"
+            src="img/IND.png"/></a> 
+          </div>
+      <div class="ENG"><a href="#" title="English">
+        <img
+          class="ENG_button flag"
+          alt="ENG"
+          src="img/UK.png"/></a> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <input type="hidden" id="product_name" name="product_name" value="int_1">
+
+    <div class="home-tests L&R">
+      <div class="test-listening-reading">
+        <div class="list-container" style="column-gap: 8rem">
+          <div>
+            <span class="listening-reading-title">
+              <div class="section-title-container">
+                <p>
+                  <ion-icon class="speaking-icon" name="chatbubbles-outline"></ion-icon>
+                  RECORD & UPLOAD
+                  <ion-icon class="writing-icon" name="cloud-upload-outline"></ion-icon>
+                </p>
+              </div>
+            </span>
+
+            <video controls id="interview_video">
+              <source src="RF_interviews/RF-INT1.mp4" type="video/mp4" />
+              <source src="RF_interviews/RF-INT1.mp4" type="video/ogg" />
+              Your browser does not support HTML video.
+            </video>
+
+            <input type="hidden" id="interview_video_mp3" value="RF_INT-audio/RF_INT1-au.mp3">
+            <audio id="interview_audio">
+              <source src="RF_INT-audio/RF_INT1-au.mp3" type="audio/mp3">
+            </audio>
+
+            <div class="container" id="record-div">
+              <div class="recording-circle"></div>
+              <div class="recording-text">Recording</div>
+            </div>
+            <div class="container" id="pause-div">
+              <div class="recording-text">Paused</div>
+            </div>
+            <div class="recorded_div">
+              <input type="hidden" id="recorded_audio">
+              <audio id="recordedAudio" onplay="onAudioPlay()" onpause="onAudioPause()"></audio>
+              <button type="button" class="record-btn" id="upload_button" style="visibility:hidden;">Upload</button>
+              <h2 id="uploading_text" style="display:none">Uploading... This may take a while...</h2>
+            </div>
+            <div class="already_record_div" style="display:none;">
+              <h2>You have already uploaded your recorded interview...</h2>
+            </div>
+
+            <div class="transcript">
+              <a href="transcript/VE_INTERVIEW1-Transcript.pdf" title= "download transcript #1" target="_blank">
+                <b>INTERVIEW #1 Transcript</b>
+            </a>
+          </div>
+
+            <ul class="list" style="margin-top: 2rem;">
+
+              <li class="list-item">
+                <ion-icon class="arrow" name="arrow-forward-outline">
+                </ion-icon>
+                <span>
+                  Start VE interview playback. (<span style="color:red;">Recording</span> will start automatically.)
+                </span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="arrow" name="arrow-forward-outline">
+                </ion-icon>
+                <span>
+                  Complete all three parts of the interview.
+                  (Do not pause the recording during the interview.)
+                </span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="arrow" name="arrow-forward-outline">
+                </ion-icon>
+                <span>
+                  Listen to your recording. 
+                  (Playback button will appear after you have recorded your interview.)
+                </span>
+              </li>
+
+              <li class="list-item">
+                <ion-icon class="arrow" name="arrow-forward-outline">
+                </ion-icon>
+                <span>
+                  Refresh the page to repeat the interview until you are satisfied with your response.
+                </span>
+              </li>
+              
+              <li class="list-item">
+                <ion-icon class="arrow" name="arrow-forward-outline">
+                </ion-icon>
+                <span>
+                  Click the <span style="color:#4CAF50;"><b>UPLOAD</b></span> button to submit your interview for <b>Virtual Examiner</b> rating and feedback.*
+                  </span>
+              </li>
+              <br><br><br>
+              <li class="list-item">
+               <span>(You will receive a <b>Virtual Examiner</b> feedback video with your <b>Virtual Examiner IELTS</b> rating for each Speaking Assessment Criteria,
+                  plus overall <b>IE Speaking Test</b> Band score rating.)
+                  <br><br>
+                  * Rating returned within 24hrs.
+                  </span>
+              </li>
+            </ul>                
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+<!-- *****************  FOOTER  *********************************************** -->
+
+<footer class="footer" style="height:8rem;">
+  <p class="copyright">
+    Copyright &copy; <span class="year">2022</span> by INTERACTIVE EDUCATION
+    Inc.
+  </p>
+</footer>
+<script src="js/app.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/login-btn.js"></script>
+<script src="js/product.js"></script>
+<script src="js/record.js"></script>
+<script>
+  (function() {})();
+initLightboxVideo();
+</script>
+
+</html>
+
+<!-- ******************************************************************************************** -->
