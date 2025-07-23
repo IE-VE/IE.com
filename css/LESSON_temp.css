@@ -1,0 +1,105 @@
+
+/* ****************** S1 ****************************************** */
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+/* *******  S2  *********** */
+
+.example-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+
+
+/* *********  S3  ******************* */
+
+.practice-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+
+/* ***************************************************************** */
+
+@media (max-width: 1100px) {
+.section_text {
+padding: 8rem 10rem;
+}
+
+}
+
+@media (max-width: 992px) {
+
+ .example-text{
+  padding: 0rem 6rem;
+ }
+ .practice-text{
+  padding: 0rem 6rem;
+ }
+
+}
+
+@media (max-width: 872px) {
+ .figcaption{
+  font-size: 16px;
+ }
+}
+
+ @media (max-width: 792px) {
+   .example-text{
+    padding: 0rem 2rem;
+   }
+   .practice-text{
+    padding: 0rem 2rem;
+   }
+   .Test-audio{
+    width: 18rem;
+  }
+  } 
+
+@media (max-width: 670px) {
+
+.figcaption{
+  font-size: 14px;
+}
+}
+
+@media (max-width: 510px) {
+  .section_text {
+    padding: 4rem 2rem;
+    }
+    .listening-question-types{
+      padding: 0rem 2rem;
+     }    
+    } 
+
+  /* *********************** 1 column ******************* */
+
+  @media (max-width: 595px) {
+.figcaption{
+  font-size: 20px;
+}
+  }
+
+@media (max-width: 500px)
+{
+  .practice_items, .test_items{
+    padding: 2rem 4rem;
+  }
+}
+
+
+/* ************** */

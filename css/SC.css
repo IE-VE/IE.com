@@ -1,0 +1,413 @@
+/* ****************  SC  ********************** */
+
+.SC-text {
+  display: flex;
+  flex-direction: column;
+  padding: 18rem 22rem 6rem;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.checkmark_title {
+  margin: 9px 15px 0px;
+  width: 27px;
+  height: 27px;
+  outline: solid black 2px;
+  border-radius: 16px;
+  fill: green;
+}
+
+.checkmark_titleFB {
+  margin: 22px 15px 0px;
+  outline: solid black 2px;
+  border-radius: 16px;
+  fill: green;
+}
+
+.skill_check-title {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.skill_check-T1 {
+  margin-bottom: 4rem;
+  border: solid black 4px;
+  border-radius: 10px;
+  background-color: #e5e4e2;
+}
+.Ac-GT {
+  padding: 0rem 3rem;
+}
+
+.skill_check-blue {
+  margin-bottom: 4rem;
+  padding: 0rem 6rem 3rem;
+  border: solid black 4px;
+  border-radius: 10px;
+  background-color: rgb(172, 239, 255);
+}
+
+.skill_check-grey {
+  margin-bottom: 4rem;
+  padding: 0rem 6rem;
+  border: solid black 4px;
+  border-radius: 10px;
+  background-color: rgb(229, 228, 226);
+  font-weight: 700;
+}
+
+.SC_ex {
+  font-size: 18px;
+  margin: 1rem -2rem 0rem;
+}
+
+.skill_title {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 4rem;
+}
+
+.Qlist {
+  margin: 0rem 3rem;
+  /* font-weight: 700; */
+}
+
+.SC_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(156, 195, 192);
+  border: solid black 3px;
+  border-radius: 10px;
+  margin: 2rem 0rem 4rem;
+  /* padding: 0rem 4rem; */
+  box-shadow: 1px 1px 1px #444;
+}
+
+.SC-audio {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0rem 1rem;
+}
+
+.SC_pic {
+  width: 80%;
+  border: solid black 2px;
+}
+
+.SC_Anspic {
+  width: 50%;
+}
+
+.SC_Comments {
+  width: 90%;
+}
+
+.SC2_pic {
+  width: 80%;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+}
+
+.SC_text {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.W_upload {
+  width: 70%;
+  border: solid black 2px;
+}
+
+.prac-audio {
+  width: 60rem;
+}
+
+.SC_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0rem 2rem;
+}
+
+.answer_upload {
+  width: 50%;
+  border: solid black 2px;
+}
+
+.skill_check-uploadbutton {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 4rem 0rem 6rem;
+}
+
+.QQ_pic {
+  width: 40%;
+  border: solid red 2px;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+.SCtasktitle {
+  margin: 6rem 0rem 2rem;
+  font-size: 22px;
+}
+
+.SC-taskNo {
+  font-weight: 500;
+  align-self: flex-start;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.SC_speakingGRA {
+  margin: 0rem 5rem;
+}
+
+.INTpic {
+  width: 40%;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+.test-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  /* padding: 0rem 14rem; */
+  color: white;
+  border: solid black 4px;
+  border-radius: 10px;
+  background-color: rgb(85, 85, 85);
+  font-weight: 700;
+}
+
+.score {
+  background-color: #17c3b2;
+  border: solid white 2px;
+  color: #0033c3;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.T_feedback:link,
+.T_feedback:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  border: solid white 3px;
+  color: #0033c3;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #17c3b2;
+}
+
+.T_feedback:hover,
+.T_feedback:active {
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  color: #1b0094;
+  background-color: #129c8e;
+}
+
+/* **************************************  FINAL  ************************************************ */
+
+.strip-final {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 8rem;
+}
+
+.title_bar-final {
+  display: flex;
+  justify-content: center;
+  color: #111;
+  background-color: #17c3b2;
+  padding: 0rem 2.4rem;
+  border: solid 2px;
+  width: 100%;
+}
+
+/* ************************** mq *************************************** */
+
+@media (max-width: 1250px) {
+  .SC-text {
+    padding: 18rem 18rem 6rem;
+  }
+  .SC_speakingGRA {
+    margin: 0rem 3rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .SC-text {
+    padding: 18rem 14rem 6rem;
+  }
+  .SC_speakingGRA {
+    margin: 0rem 0rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .SC-text {
+    padding: 18rem 12rem 6rem;
+  }
+  .answer_upload {
+    width: 60%;
+  }
+  .skill_check-grey,
+  .skill_check-blue {
+    padding: 0rem 3rem;
+  }
+  .SC_Anspic {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .SC-text {
+    padding: 18rem 8rem 6rem;
+  }
+}
+
+@media (max-width: 792px) {
+  .SC-text {
+    padding: 18rem 6rem 6rem;
+    font-size: 18px;
+  }
+  .SC_ex {
+    font-size: 15px;
+  }
+  .skill_title {
+    font-size: 23px;
+    margin-bottom: 4rem;
+  }
+  .SC_items {
+    padding: 0rem 2rem;
+  }
+  .SC_pic,
+  .SC2_pic {
+    width: 90%;
+  }
+  .W_upload {
+    width: 80%;
+  }
+  .answer_upload {
+    width: 70%;
+  }
+}
+
+@media (max-width: 692px) {
+  .SC-text {
+    padding: 18rem 4rem 6rem;
+  }
+  .W_upload {
+    width: 90%;
+  }
+  .answer_upload {
+    width: 80%;
+  }
+  .skill_check-grey,
+  .skill_check-blue {
+    padding: 0rem 2rem;
+  }
+}
+
+@media (max-width: 512px) {
+  .SC_ex {
+    font-size: 12px;
+    margin: 1rem 0rem;
+  }
+  .SC-text {
+    padding: 18rem 2rem 6rem;
+  }
+  .Ac-GT {
+    padding: 0rem 1rem;
+  }
+  .skill_check-grey,
+  .skill_check-blue {
+    padding: 0px 15px;
+  }
+  .Qlist {
+    margin: 0rem 1rem;
+  }
+  .answer_upload {
+    width: 90%;
+  }
+  .T_feedback:link,
+  .T_feedback:visited {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* *********************** prac audio ***************** */
+
+@media (max-width: 1190px) {
+  .prac-audio {
+    width: 55rem;
+  }
+}
+@media (max-width: 1050px) {
+  .prac-audio {
+    width: 50rem;
+  }
+}
+@media (max-width: 950px) {
+  .prac-audio {
+    width: 45rem;
+  }
+}
+@media (max-width: 720px) {
+  .prac-audio {
+    width: 42rem;
+  }
+}
+@media (max-width: 650px) {
+  .prac-audio {
+    width: 38rem;
+  }
+}
+@media (max-width: 600px) {
+  .prac-audio {
+    width: 35rem;
+  }
+}
+@media (max-width: 550px) {
+  .prac-audio {
+    width: 30rem;
+  }
+}
+@media (max-width: 450px) {
+  .prac-audio {
+    width: 28rem;
+  }
+}
+@media (max-width: 400px) {
+  .prac-audio {
+    width: 25rem;
+  }
+}
+@media (max-width: 350px) {
+  .prac-audio {
+    width: 20rem;
+  }
+}
+@media (max-width: 300px) {
+  .prac-audio {
+    width: 16rem;
+  }
+}
+
+/* ********************************************************** */
+/* ******************************************************** */

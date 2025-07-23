@@ -1,0 +1,239 @@
+.intro {
+  background-color: #eee;
+  padding: 10rem 18rem 8rem;
+  border-bottom: solid 6px;
+}
+
+.NSInterviews {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.NStitle {
+  margin-bottom: 6rem;
+}
+
+/* .IDR{
+font-size: 12px;
+font-weight: 400;
+line-height: 0.8;
+color: blue;
+align-self: flex-end;
+margin-top: 2rem;
+} */
+
+.interviews {
+  background-color: #d1f3f0;
+  padding: 4rem 18rem 1rem;
+}
+
+.INT1-3 {
+  font-size: 1.6rem;
+}
+
+/* .buy_icon {
+  font-size: large;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: 6rem;
+} */
+
+.INT {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  margin: 6rem 8rem 0rem;
+  border: solid 3px red;
+  border-radius: 10px;
+  background-color: #ccc;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+}
+
+.INT:hover,
+.INT:active {
+  transform: translateY(-0.5rem);
+  transition: 0.5s;
+  background-color: #ddd;
+}
+
+.int_button {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.int_button-title {
+  padding-top: 2rem;
+}
+.int_button-nat {
+  padding: 2rem 4rem 0rem;
+}
+
+.nat {
+  padding-left: 2rem;
+}
+
+.int_button-topic {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.MEMBfree {
+  color: red;
+  margin: 1rem;
+  background-color: aliceblue;
+  border: solid black 2px;
+  padding: 3px 9px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.int_button-part {
+  padding: 0rem 4rem;
+}
+
+.list_last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.int_button-priceA {
+  padding-top: 3rem;
+  list-style-type: none;
+  padding-right: 6rem;
+  font-size: 4rem;
+  text-decoration: double;
+  color: red;
+  font-weight: 600;
+}
+
+.int_button-priceB {
+  padding-top: 3rem;
+  list-style-type: none;
+  padding-right: 6rem;
+  font-size: 4rem;
+  text-decoration: double;
+  font-weight: 500;
+}
+
+.INT-sample {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0rem 8rem;
+}
+
+.sample-text {
+  margin: 4rem 0rem;
+  font-size: 1.7rem;
+  color: #0033c9;
+}
+
+.sample-audio {
+  margin-top: 2rem;
+}
+
+.refund {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  /* font-weight: 500; */
+  line-height: 1.4;
+}
+
+.RatedInt {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.RatedINT-title {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.int_button-priceC {
+  padding-top: 3rem;
+  list-style-type: none;
+  padding-right: 6rem;
+  font-size: 4rem;
+  text-decoration: double;
+  font-weight: 500;
+}
+
+.thanks {
+  font-size: large;
+  font-weight: 500;
+}
+
+/* ********************************************************************** */
+
+@media (max-width: 1100px) {
+  .INT1-3,
+  .INT {
+    margin: 6rem 0rem 0rem;
+  }
+
+  .list_last {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .int_button-priceA,
+  .int_button-priceB,
+  .int_button-priceC {
+    padding: 1rem 0rem;
+  }
+
+  .INT-sample {
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro {
+    padding: 10rem 8rem 8rem;
+  }
+
+  .NSInterviews {
+    margin-top: 8rem;
+  }
+
+  .INT1-3,
+  .INT {
+    margin: 6rem 0rem 0rem;
+  }
+
+  .list_last {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .int_button-priceA,
+  .int_button-priceB,
+  .int_button-priceC {
+    padding: 1rem 0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 24px;
+    margin-top: 12rem;
+  }
+
+  .interviews {
+    margin-top: 0rem;
+  }
+}

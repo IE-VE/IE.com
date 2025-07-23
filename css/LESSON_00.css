@@ -1,0 +1,312 @@
+
+/* .IETPP{
+  color: #eee;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  object-fit: contain;
+
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  margin-top: 12rem;
+} */
+
+.langpref {
+  margin-left: -255px; 
+  width: 98px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+/* .lesson-intro {
+  background-color: #555;
+  padding: 0 30rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.4;
+  border-bottom: solid black 3px;
+} */
+
+.lesson_code{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-weight: 100;
+  color: #ccc;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+}
+
+.lesson{
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.mins{
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.lesson_content{
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.menu_link-top{
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.menu_link-bottom{
+  margin: 6rem 0rem;
+
+}
+
+.link-content:link,
+.link-content:visited {
+  color: #17c3b2;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+.link-content:hover,
+.link-content:active {
+  color: #129c8e;
+  /* border-bottom: 2px solid; */
+}
+
+/* ***************************************** TEST ****************************************** */
+
+.test_make-up {
+  background-color: #d1f3f0;
+  padding: 0rem 18rem 6rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  border-bottom: solid 3px;
+}
+
+.section_title{
+  margin-bottom: 6rem;
+  font-size: 3rem;
+}
+
+.test_papers-listening{
+  display: flex;
+  gap: 2rem;
+  margin: 6rem 6rem 4rem;
+}
+
+.test_papers{
+  display: flex;
+  gap: 2rem;
+  margin: 6rem 0rem;
+}
+
+.test-text-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  /* margin-bottom: 4rem; */
+}
+
+.test_items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Test-pic{
+  width: 80%;
+  height: auto;
+  border: solid black 2px;
+}
+
+/* .audio_control{
+  display: flex;
+} */
+
+.test_item-audio{
+  display: flex;
+  justify-content: center;
+  margin: 0rem 10rem 1rem;
+}
+
+.Test-audio{
+  width: 70rem;
+}
+
+.VE-button-test-intro {
+  height: 52px;
+  border: solid 3px;
+  border-radius: 12px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+}
+
+.VE-button-test-intro:hover,
+.VE-button-test-intro:active {
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  filter: brightness(85%);
+}
+
+/* ****************************************************  ASSESSMENT  ********************************************* */
+
+.assessment-text {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  background-color: #eee;
+  padding: 0rem 18rem 8rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.assessment-text-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;  
+   text-align: center;
+}
+
+.rubrics {
+  display: flex;
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.rubric_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rubric-pic{
+  width: 80%;
+  height: auto;
+  border: solid black 2px;
+}
+
+.band{
+  width: 100%;
+}
+
+.VE-button-assessment-intro {
+  height: 52px;
+  border: solid 3px;
+  border-radius: 12px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+  /* float: right; */
+}
+
+.VE-button-assessment-intro:hover,
+.VE-button-assessment-intro:active {
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  filter: brightness(85%);
+}
+
+.assessment-intro-vid {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.menu_link-bottom{
+  margin-top: 6rem;
+  font-size: 20px;
+}
+
+/* ***************************************************************** */
+
+@media (max-width: 1100px) {
+.test_make-up, .assessment-text {
+padding: 0rem 10rem 8rem;
+}
+
+.langpref{
+  margin-left: -150px;
+}
+}
+
+@media (max-width: 992px) {
+  .test_papers-listening{
+    margin: 6rem 0rem 4rem;
+  }
+
+  .test_item-audio{
+    margin: 0rem 3rem 1rem;
+  }
+ 
+ /* .test-text-intro, .assessment-text-intro{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0rem;
+ } */
+}
+
+ @media (max-width: 792px) {
+  .test_make-up, .assessment-text {
+  padding: 0rem 6rem 4rem;
+  }
+
+  .langpref{
+    margin-left: -70px;
+  }
+  } 
+
+@media (max-width: 670px) {
+  .lesson-intro{
+    padding: 0rem 6rem;
+  }
+
+  .langpref{
+    margin-left: -10px;
+  }
+
+.rubrics{
+  margin: 4rem 0rem;
+}
+}
+
+@media (max-width: 612px) {
+  .langpref{
+    margin-left: -24px;
+  }
+}
+
+@media (max-width: 510px) {
+  .test_make-up, .assessment-text {
+    padding: 0rem 2rem 4rem;
+    }
+      
+    .langpref{
+      margin-left: 16px;
+    }
+    } 
+
+    @media (max-width: 430px) {
+      .lesson{
+        font-size: 20px;
+      }
+     .mins{
+      font-size: 15px;
+      margin-top: 5px;
+      }
+      .lesson_content{
+        font-size: 18px;
+      }
+    }

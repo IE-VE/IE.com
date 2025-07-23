@@ -1,0 +1,522 @@
+
+/* ****************** S1 ****************************************** */
+
+.intro-text{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.intro-vid{
+  align-self: center;
+  margin: 3rem 0rem;
+}
+
+.listening-question-types, 
+.reading-question-types{
+  margin-top: 4rem;
+}
+
+.listening-last {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 4rem 26rem;
+  color: #111;
+}
+
+.reading-last {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 4rem 18rem;
+  /* margin-top: 4rem; */
+  color: #111;
+}
+
+/* *******  S2  *********** */
+
+.example-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.test_papers{
+display: flex;
+  gap: 2rem;
+  padding: 6rem 0rem;
+}
+
+.test_items{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 50%;
+}
+
+.figcaption{
+  font-size: 18px;
+  margin: 1rem 4rem;
+}
+
+.VE-button-test-items {
+  height: 44px;
+  border: solid 3px;
+  border-radius: 12px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+}
+
+.Test-pic{
+  width: 80%;
+  border: solid black 2px;
+  align-self: center;
+}
+
+.Test-picT2{
+  width: 70%;
+  border: solid black 2px;
+}
+
+.VE-button-test-intro {
+  height: 52px;
+  border: solid 3px;
+  border-radius: 12px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+}
+
+.VE-button-test-intro:hover,
+.VE-button-test-intro:active {
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  filter: brightness(85%);
+}
+
+/* ***********  L03  ************ */
+
+.writing-assessment {
+  /* background-color: #d1f3f0; */
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  /* gap: 2.4rem 3.2rem; */
+  /* border-bottom: solid 3px; */
+  line-height: 1.4;
+  align-items: stretch;
+}
+
+.writing-rubric {
+  object-fit: contain;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border: solid 3px;
+  justify-self: center;
+  width: 100%;
+}
+
+.writing_Qs{
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0rem;
+}
+
+.W-example_papers{
+  display: flex;
+    justify-content: space-between;
+    padding: 6rem 0rem;
+    gap: 2rem;
+  }
+
+/* ************** WT2 ********** */
+
+.W-example_paper{
+  display: flex;
+    justify-content: center;
+    padding: 6rem 0rem;
+  }
+
+.test_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* *********  S3  ******************* */
+
+.practice-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.practice-text-intro {
+  display: flex;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.practice_papers{
+  display: flex;
+    padding: 6rem 0rem;
+    justify-content: center;
+  }
+
+  .practice_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .test_item-audio{
+    display: flex;
+    justify-content: center;
+    margin:  1rem 3rem;
+  }
+  
+  .Test-audio{
+    width: 30rem;
+  }
+
+  .practice_Q-pic{
+    width: 100%;
+    height: auto;
+    border: solid black 2px;
+  }
+
+  .task{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-weight: 500;
+    background-color: #129c8e;
+    border: solid black 2px;
+    padding: 1rem 2rem;
+    width: 80%;
+    margin-bottom: 5rem;
+  }
+
+  .taskT2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    background-color: #129c8e;
+    border: solid black 2px;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .practice_answer_sheet{
+    width: 40%;
+    height: auto;
+    border: solid black 2px;
+  }
+
+
+.answer_vid{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 4rem 0rem 6rem;
+}
+
+.answer_vids{
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-bottom: 4rem;
+}
+
+.vid-script{
+  display: flex;
+  gap: 4rem;
+}
+
+/* ******************** S04 ***************** */
+
+.speaking-part-titles {
+  display: flex;
+  gap: 8rem;
+  margin-top: 1rem;
+}
+
+.speaking-part-titles-text {
+  align-self: center;
+}
+
+.example_response{
+  display: flex;
+  justify-content: space-between;
+    padding: 6rem 0rem;
+  }
+  
+  .response_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-IETPP:link,
+.link-IETPP:visited {
+  color: #0033c3;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link-IETPP:hover,
+.link-IETPP:active {
+  color: #1b0094;
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  filter: brightness(85%);
+}
+
+.Q2_pic{
+width: 10rem;
+border: solid red 2px;
+border-radius: 5px;
+
+}
+
+/* *************  timer  ********************* */
+
+.timer{
+  /* border-top: solid black 3px; */
+  margin: 4rem 0rem;
+}
+
+.countdown {
+  border: 3px solid #004853;
+  width: 80px;
+  border-radius: 10px;
+  padding: 0px 7px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #129c8e;
+  background-color: rgb(23, 195, 178);
+}
+
+/* ******************************** mq ************************************************ */
+
+@media (max-width: 1100px) {
+.section_text {
+padding: 8rem 10rem;
+}
+.section_intro{
+  padding: 0rem 20rem;
+}
+.intro-text{
+  padding: 0rem 12rem;
+ }
+.example-text{
+  padding: 0rem 12rem;
+ }
+ .Test-picT2{
+  width: 800%;
+}
+}
+@media (max-width: 992px) {
+  .test_papers-listening{
+    margin: 6rem 0rem 4rem;
+  }
+ .practice-text-intro{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0rem;
+ }
+ .example-text{
+  padding: 0rem 6rem;
+ }
+ .practice-text{
+  padding: 0rem 6rem;
+ }
+ .intro-text{
+  padding: 0rem 6rem;
+ }
+ .listening-last_text,
+ .reading-last_text{
+  padding: 0rem 10rem 6rem;
+ }
+ .test_item-audio{
+  margin: 3rem 2rem 1rem;
+ }
+.writing-assessment {
+  padding:  0rem 3rem;
+}
+}
+
+@media (max-width: 872px) {
+ .figcaption{
+  font-size: 16px;
+ }
+}
+
+ @media (max-width: 792px) {
+  .section_text {
+  padding: 4rem 6rem;
+  }  
+  .section_title-sec1{
+    font-size: 24px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .listening-last_text,
+  .reading-last_text{
+    padding: 0rem 5rem 6rem;
+   }
+   .example-text{
+    padding: 0rem 2rem;
+   }
+   .practice-text{
+    padding: 0rem 2rem;
+   } 
+  } 
+
+  @media (max-width: 670px) {
+    .intro-text{
+      padding: 0rem 3rem;
+    }
+    .Test-picT2{
+      width: 100%;   
+    }
+    .rubrics{
+      margin: 4rem 0rem;
+    }
+    .figcaption{
+      font-size: 14px;
+    }
+    }
+    
+@media (max-width: 510px) {
+  .section_text {
+    padding: 4rem 2rem;
+    }
+    .intro-text{
+      padding: 0rem 2rem;
+     }
+    .listening-intro, .listening-question-types
+     .example-text, .practice-text{
+      padding: 0rem 2rem;
+     }    
+    } 
+
+  /* *********************** 1 column ******************* */
+
+  @media (max-width: 595px) {
+.practice_papers{
+  padding: 1rem 0rem;
+}
+.practice_items, .test_items,
+.writing_Qs{
+  flex-direction: column;
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+.example_response{
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem 4rem;
+}
+
+.Test-pic{
+  width: 100%;
+}
+.task{
+  width: 100%;
+}
+.figcaption{
+  font-size: 20px;
+  margin: 1rem 0rem;
+}
+.test_item-audio{
+  margin: 3rem 0rem 1rem;
+}
+  }
+
+@media (max-width: 500px)
+{
+  .practice_items, .test_items{
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .practice_items, .test_items{
+    padding: 2rem 2rem;
+  }
+}
+
+/* ***** test audio********* */
+
+@media (max-width: 1100px)
+{
+.Test-audio{
+  width: 25rem;
+}
+}
+@media (max-width: 992px)
+{
+.Test-audio{
+  width: 22rem;
+}
+}
+@media (max-width: 792px){
+.Test-audio{
+  width: 18rem;
+}
+}
+@media (max-width: 670px) {
+  .Test-audio{
+    width: 16rem;
+  }
+}
+@media (max-width: 595px) {
+.Test-audio{
+  width: 44rem;
+}
+}
+@media (max-width: 550px) {
+  .Test-audio{
+    width: 40rem;
+  }
+}
+@media (max-width: 450px) {
+  .Test-audio{
+    width: 35rem;
+  }
+}
+@media (max-width: 400px) {
+  .Test-audio{
+    width: 30rem;
+  }
+}
+@media (max-width: 350px) {
+  .Test-audio{
+    width: 28rem;
+  }
+}
+@media (max-width: 300px) {
+  .Test-audio{
+    width: 25rem;
+  }
+}
+
+/* ******************************************************* */
+/* ******************************************************* */
+

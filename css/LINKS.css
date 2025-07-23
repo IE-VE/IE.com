@@ -1,0 +1,179 @@
+.container {
+  display: grid;
+
+  height: auto;
+  background-color: #eee;
+}
+
+.container-resources {
+  padding-top: 12rem;
+}
+
+.IE_title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 6rem;
+}
+
+.IE-text {
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  /* margin-top: 10rem; */
+  margin-bottom: 4rem;
+}
+
+.IE-BM {
+  height: 50rem;
+  border: solid 2px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.IE-values {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 1fr;
+  line-height: 1.4;
+  padding: 2rem 13rem;
+  margin-bottom: 1rem;
+}
+
+.IE-values-col {
+  display: grid;
+  grid-template-columns: 10ch auto;
+}
+
+.values-col1 {
+  width: 20rem;
+}
+
+.VE-project {
+  display: flex;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  font-weight: 400;
+  flex-direction: column;
+  line-height: 1.4;
+  border-bottom: solid 2px;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.ref {
+  font-size: 15px;
+  color: #0033c3;
+  text-align: right;
+}
+
+.Interactive-Education {
+  padding: 0rem 22rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.Partners {
+  height: 30rem;
+}
+
+.Resources {
+  margin-bottom: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.TC-text{
+  padding: 0rem 18rem;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.Disc-text{
+  padding: 0rem 18rem 5rem;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+.links-end {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #111;
+}
+
+.end-columns {
+  display: grid;
+}
+
+.links:link,
+.links:visited {
+  color: #0033c3;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.links:hover,
+.links:active {
+  color: #1b0094;
+  border-bottom: 2px solid;
+}
+
+/* ************************************************************************************ */
+
+@media (max-width: 1100px) {
+  .IE-text {
+    padding: 24px;
+  }
+  .IE-BM {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin-top: 4rem;
+  }
+
+  .IE-values {
+    padding: 24px;
+    gap: 12px;
+  }
+
+  .IE-values-col {
+    grid-template-columns: none;
+  }
+  .VE-project {
+    padding: 24px;
+  }
+  .Interactive-Education {
+    padding: 24px;
+  }
+  .container {
+    padding-top: 12rem;
+  }
+  .support-container {
+    padding-top: 4rem;
+  }
+  .Resources {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container-resources {
+    padding-top: 18rem;
+  }
+}

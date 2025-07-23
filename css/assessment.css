@@ -1,0 +1,267 @@
+.container {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.assessment-text {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
+.assessment-intro {
+  background-color: #eee;
+  padding: 8rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+  border-bottom: solid 4px;
+}
+
+.band {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.VE-button-assessment-intro {
+  height: 52px;
+  border: solid 3px;
+  border-radius: 12px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+  margin-left: 2rem;
+  margin-right: 12rem;
+}
+
+.VE-button-assessment-intro:hover,
+.VE-button-assessment-intro:active {
+  transform: translateY(-0.2rem);
+  transition: 0.4s;
+  filter: brightness(85%);
+}
+
+.assessment-intro-vid {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 3rem 5rem;
+  flex-direction: column;
+}
+
+.assessment-L {
+  background-color: #d1f3f0;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem 3rem 18rem;
+  gap: 2.4rem 3.2rem;
+  /* border-bottom: solid 3px; */
+  align-items: stretch;
+}
+
+.assessment-R {
+  background-color: #eee;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem 3rem 18rem;
+  gap: 2.4rem 3.2rem;
+  /* border-bottom: solid 3px; */
+  align-items: stretch;
+}
+
+.LandR-assessment {
+  font-size: 2rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.assessment-speaking {
+  background-color: #eee;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem 3rem 18rem;
+  gap: 2.4rem 3.2rem;
+  /* border-bottom: solid 3px; */
+  align-items: stretch;
+}
+
+.section-title {
+  grid-column: -3/-1;
+}
+
+.speaking-assessment {
+  font-size: 2rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.criteria-list {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.speaking-rubric,
+.writing-rubric {
+  object-fit: contain;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border: solid 3px;
+  justify-self: center;
+  width: 100%;
+}
+
+.para_3 {
+  grid-column: -3/-1;
+  border-bottom: solid 2px;
+}
+
+.criteria {
+  grid-column: -3/-1;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.criteria_heading {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.criteria_heading-text {
+  padding-top: 2rem;
+}
+
+.criteria_button {
+  margin-left: 10rem;
+}
+
+.criteria h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.FLC,
+.LR,
+.GRA,
+.PR,
+.TA,
+.CC {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.rubric-criteria {
+  width: 100%;
+  object-fit: contain;
+  align-self: center;
+  border: solid 2px;
+  margin-bottom: 2rem;
+}
+
+.assessment-writing {
+  background-color: #d1f3f0;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4.8rem 18rem 3rem 18rem;
+  gap: 2.4rem 3.2rem;
+  /* border-bottom: solid 3px; */
+  line-height: 1.4;
+  align-items: stretch;
+}
+
+.writing-assessment {
+  grid-column: -3/-1;
+  font-size: 2rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.writing-assessment-T1_intro {
+  border-bottom: solid 2px;
+}
+
+.writing-assessment-T1 {
+  border-bottom: solid 2px;
+}
+
+.writing-assessment-T2 {
+  margin-top: 6rem;
+}
+
+.assessment-final {
+  background-color: #eee;
+  padding: 4.8rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.list-item-last {
+  border: solid 2px;
+  background-color: #ccc;
+  border-radius: 8px;
+  grid-column: -3/-1;
+  padding: 1rem;
+}
+
+/* ****************** media *********************** */
+
+@media (min-width: 1100px) {
+  .writing-rubric,
+  .speaking-rubric {
+    width: 100rem;
+  }
+
+  .rubric-criteria {
+    width: 90rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    margin-top: 12rem;
+  }
+  .assessment-intro,
+  .assessment-LandR,
+  .assessment-speaking,
+  .assessment-final,
+  .assessment-writing {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .assessment-intro {
+    padding: 24px;
+    margin-top: 0;
+  }
+  .assessment-intro-vid {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    gap: 2rem;
+    align-items: center;
+  }
+  .VE-button-assessment-intro {
+    margin: 0;
+  }
+
+  .criteria-list {
+    padding-left: 24px;
+  }
+  .criteria_button {
+    margin: 0;
+  }
+  .criteria_heading {
+    justify-content: space-between;
+  }
+}

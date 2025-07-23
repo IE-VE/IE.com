@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.home-tests {
+  background-color: #d1f3f0;
+  padding: 8rem 4rem;
+  gap: 2.4rem 3.2rem;
+  border-bottom: solid 2px;
+  align-items: stretch;
+  justify-items: end;
+  display: flex;
+}
+
+.home-tests > .row,
+.home-tests > .test-listening-reading,
+.home-tests > .writing,
+.home-tests > .list-item-last {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.home-tests.speaking {
+  display: block;
+}
+
+.rec_up-title {
+  width: 100%;
+  font-size: 3.2rem;
+  color: #111;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-bottom: 4.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ccc;
+  padding: 0.5rem;
+  border: solid 2px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+}
+
+.list-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.vid_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.QQvid{
+  width: 33rem;
+  align-self: center;
+}
+
+.list-item {
+  line-height: 1.4;
+  letter-spacing: 0.75px;
+  text-align: justify;
+}
+
+/* **************************  media  ****************************** */
+
+  @media (max-width: 992px) {
+    .container {
+      margin-top: 11rem;
+    }
+
+.home-tests{
+  padding: 16rem 4rem;
+}
+
+  .rec_up-title {
+    font-size: 2rem;
+    margin-top:4rem;
+  }
+ }
+
+@media (max-width: 567px) {
+  .section-title-container {
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    font-size: 2rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 612px){
+  .langpref{
+margin-left: 20px
+  } 
+}
+
+@media (max-width: 408px) {
+  .langpref{
+margin-top: 44px;
+  } 
+
+  .home-tests{
+    padding: 13rem 1.5rem;
+  }
+}
+
+@media (max-width: 373px) {
+  .langpref{
+margin-top: 60px;
+  } 
+}

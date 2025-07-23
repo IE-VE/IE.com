@@ -1,0 +1,207 @@
+
+
+.lesson-title-blue {
+  font-size: 26px;
+  color: #111;
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 6rem 0rem 5rem;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-self: center;
+  background-color: #2df7;
+  padding: 2px;
+  border: solid 2px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+  width: fit-content;
+}
+
+.lesson-title-grey {
+  font-size: 26px;
+  color: #111;
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 6rem 0rem 5rem;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-self: center;
+  background-color: #ccc;
+  padding: 2px;
+  border: solid 2px;
+  box-shadow: 0.2rem 0.2rem 0.2rem #444;
+  width: fit-content;
+}
+
+.skill_check-link{
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.checkmark_small{
+    margin: 7px 15px 0px;
+    width: 22px;
+    height: 22px;
+    outline: solid black 2px;
+    border-radius: 16px;
+    fill: green;
+    }
+
+.SKILL{
+display: flex;
+background-color: white;
+outline: solid #264d4d 4px;
+border-radius: 5px;
+}
+
+.checkmark_link{
+  margin: 7px 15px 0px;
+  width: 30px;
+  height: 30px;
+  outline: solid black 2px;
+  border-radius: 16px;
+  fill: green;
+  }
+
+/* ****************** S1 ****************************************** */
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 18rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.intro-vid{
+  align-self: center;
+  margin: 3rem 0rem;
+}
+
+.taskQ{
+  width: 70%;
+  margin: 4rem 0rem;
+}
+
+.technique-title{
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+
+.technique-instructions{
+  margin: 2rem 4rem;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.technique-instruction{
+  margin: 4rem 8rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.technique-instructions-last{
+  margin: 0rem 4rem 6rem 14rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.techniqueQ{
+  width: 70%;
+}
+
+.lesson_task{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.task-pic, .answer-pic{
+width: 75%;
+}
+
+/* *******  S2  *********** */
+
+.part_heading{
+  border-top: solid black 2px;
+  padding-top: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.L_demovid{
+  align-self: center;
+  margin: 3rem 0rem;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.NS_INTvid{
+  align-self: center;
+  margin: 1rem 0rem;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.NS_example{
+  display: flex;
+justify-content: center;
+}
+
+.NSint-pic{
+width: 100%;
+}
+
+
+/* ***************************** mq ************************************ */
+
+@media (max-width: 1100px) {
+  .lesson-title {
+    margin: 5rem 0rem 4rem;
+    font-size: 24px;
+    gap: 15px;
+  }
+  .taskQ,
+  .techniqueQ,
+  .L_demovid{
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+ .lesson-title {
+  margin: 4rem 0rem 3rem;
+  font-size: 22px;
+  gap: 10px;
+}
+}
+
+@media (max-width: 792px) {
+  .technique-title{
+    /* font-size: 24px; */
+    margin-bottom: 1rem;
+  }
+  .technique-instructions{
+    margin: 2rem 1rem;
+  }
+  .technique-instruction{
+    margin: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  }
+
+@media (max-width: 512px) {
+  .lesson-title {
+    margin: 4rem 0rem 3rem;
+    font-size: 18px;
+    gap: 6px;
+    } 
+  }
+
+/* ************** */
+/* ************** */
